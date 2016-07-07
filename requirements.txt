@@ -1,0 +1,6 @@
+#easy_install https://sourceforge.net/projects/pywin32/files/pywin32/Build%20220/pywin32-220.win32-py3.5.exe/download
+pyglet
+hg+http://hg.q-continuum.net/platform_utils#egg=platform_utils
+hg+http://hg.q-continuum.net/libloader#egg=libloader
+hg+http://hg.q-continuum.net/accessible_output2#egg=accessible_output2
+hg+http://hg.q-continuum.net/sound_lib#egg=sound_lib
