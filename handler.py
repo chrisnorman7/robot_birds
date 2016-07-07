@@ -74,3 +74,8 @@ class Handler(object):
    self.arm(-1)
   elif single == key.BRACKETRIGHT:
    self.arm(1)
+  elif single == key.RETURN:
+   if self.background.volume == 1.0:
+    self.background.volume = 0.0
+   else:
+    self.background.volume = 1.0
